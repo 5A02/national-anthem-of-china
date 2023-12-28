@@ -1,0 +1,10 @@
+basic.forever(function () {
+    music.play(music.stringPlayable("C E G G G A - G ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("E C G G G E C - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("G C5 - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("G C5 C5 C5 G A B C5 ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("E C D E - G G - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("E E C E G E D D ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("A G D E G E G E ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("D E A D - G A C5 ", 120), music.PlaybackMode.UntilDone)
+})
